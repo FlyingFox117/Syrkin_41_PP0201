@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/course_bg"
+    android:padding="12dp"
+    android:gravity="fill"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCourseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Честность"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <TextView
+            android:id="@+id/tvCourseDescription"
+            android:text="Учимся говорить правду и быть честными"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textSecondary"/>
+
+        <TextView
+            android:id="@+id/tvCourseProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Прогресс: 0%"
+            android:textSize="14sp"
+            android:textColor="@color/finished"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgCourse"
+        android:layout_width="125dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

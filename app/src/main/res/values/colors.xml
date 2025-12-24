@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="head">#FFFFFF</color>
+    <color name="body">#DBDBDB</color>
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondary">#555555</color>
+
+    <color name="primary">#FF99FF</color>
+    <color name="accent">#FFCCCC</color>
+
+    <color name="finished">#58893A</color>
+    <color name="unresolved">#2C6985</color>
+    <color name="blocked">#AF233D</color>
+
+    <color name="iconTint">#000000</color>
+</resources>

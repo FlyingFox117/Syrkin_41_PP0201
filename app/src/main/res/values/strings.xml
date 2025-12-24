@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PonyvilleSchool</string>
+    <string name="buttonLogin">Войти</string>
+    <string name="buttonRegistration">Регистрация</string>
+    <string name="buttonToAuth">Авторизация</string>
+    <string name="buttonToReg">Создать аккаунт</string>
+    <string name="buttonTaskStart">Начать</string>
+    <string name="buttonPracticeStart">Далее</string>
+    <string name="buttonTaskFinish">Закончить прохождение</string>
+    <string name="buttonBack">Вернуться</string>
+</resources>

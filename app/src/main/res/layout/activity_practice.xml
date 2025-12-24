@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/practice_layout"
+    android:background="@color/body"
+    tools:context=".PracticeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:background="@color/head"
+        android:gravity="center"
+        android:paddingHorizontal="5dp"
+        android:id="@+id/header">
+
+        <ImageButton
+            android:id="@+id/btnPracticeBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/back"
+            app:tint="@color/iconTint"
+            android:contentDescription="Назад"/>
+
+        <TextView
+            android:id="@+id/tvPracticeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Задание"
+            android:textColor="@color/textPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvCurrentTask"
+            android:layout_width="42dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="0/0"
+            android:textColor="@color/head"
+            android:textStyle="bold"
+            android:background="@drawable/rectangle"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/practiceQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="25sp"
+        android:background="@drawable/course_bg"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnAnswerOne"
+        android:layout_marginHorizontal="25dp"
+        android:enabled="false"
+        android:text="Вопрос 1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnAnswerTwo"
+        android:layout_marginHorizontal="25dp"
+        android:enabled="false"
+        android:text="Вопрос 2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnAnswerThree"
+        android:layout_marginHorizontal="25dp"
+        android:enabled="false"
+        android:text="Вопрос 3"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnSubmit"
+        android:text="Продолжить"
+        android:layout_marginHorizontal="25dp"/>
+</LinearLayout>
